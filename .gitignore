@@ -4,6 +4,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/windows,linux,images,node
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,linux,images,node
 
+### Video ###
+*.mp4
+
 ### Images ###
 # JPEG
 *.jpg

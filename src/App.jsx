@@ -1,21 +1,20 @@
 // React Imports
-import React from "react"
+import React from "react";
+
+// Components import
+import MyInfo from "./components/MyInfo";
 
 //Style Imports
-import "./style/Normalization.scss"
-import "./style/App.scss"
-
-// Assets Import
-import ExampleImage from "./examplepic.jpg"
+import "./style/Normalization.scss";
+import "./style/App.scss";
 
 // Code
 const App = function() {
   return (
     <div className="App">
-      <h1>Hello, Worssssld</h1>
-      <img src={ExampleImage} alt="" srcset="" />
+      <MyInfo />
     </div>
   )
 }
 
-export default App
+export default App;

@@ -1,5 +1,7 @@
+@import "./Utils.scss";
+
 #root {
   width: 100vw;
   height: 100%;
-  background-color: green;
+  background-color: $backgroundColor;
 }

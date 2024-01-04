@@ -25,3 +25,15 @@ span,
 p {
   color: $fontColor;
 }
+
+.title {
+  font-size: 3rem;
+  font-family: $titleFont;
+  text-transform: capitalize;
+}
+
+.subtitle {
+  font-size: 2rem;
+  font-family: $subtitleFont ;
+  text-transform: capitalize;
+}

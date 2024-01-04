@@ -1,6 +1,7 @@
 // React Imports
 import React from "react";
-
+// Style
+import "../style/MyInfo.scss"
 // Assets Imports
 // // Video
 import coverVideo from "../assets/videos/finalCoverVideo.mp4"
@@ -23,10 +24,20 @@ const MyInfo = function() {
       </picture>
       <section className="myInfo__data">
         <section className="myInfo__data__texts">
-          <div className="line"></div>
-          <h1 className="title">Sebastian Lomas Lopez</h1>
-          <h2 className="subtitle">WebDev</h2>
-          <div className="line"></div>
+          <h1 className="title name">
+            <span>
+              sebastian
+            </span>
+            <br />
+            <span>
+              lomas
+            </span>
+          </h1>
+          <div className="position">
+            <div className="firstLine"></div>
+            <h2 className="subtitle">WebDev</h2>
+            <div className="secondLine"></div>
+          </div>
         </section>
         <section className="myInfo__data__contact">
           <a href="http://" target="_blank" rel="noopener noreferrer">

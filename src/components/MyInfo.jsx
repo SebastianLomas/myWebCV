@@ -40,16 +40,16 @@ const MyInfo = function() {
           </div>
         </section>
         <section className="myInfo__data__contact">
-          <a href="http://" target="_blank" rel="noopener noreferrer">
+          <a href="https://mx.linkedin.com/in/sebastian-lomas-l%C3%B3pez-84b815199" target="_blank" rel="noopener noreferrer">
             <img src={linkedInLogo} alt="" srcset="" />
           </a>
-          <a href="http://" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/SebastianLomas?tab=repositories" target="_blank" rel="noopener noreferrer">
             <img src={githubLogo} alt="" srcset="" />
           </a>
-          <a href="http://" target="_blank" rel="noopener noreferrer">
+          <a href="https://twitter.com/sebaslomaslopez" target="_blank" rel="noopener noreferrer">
             <img src={twitterLogo} alt="" srcset="" />
           </a>
-          <a href="http://" target="_blank" rel="noopener noreferrer">
+          <a href="mailto:sebaslomas.jobs@gmail.com" target="_blank" rel="noopener noreferrer">
             <img src={gmailLogo} alt="" srcset="" />
           </a>
         </section>

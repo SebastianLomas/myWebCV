@@ -1,0 +1,17 @@
+.aboutMe {
+  width: 100%;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  &__text {
+    width: 90%;
+    height: auto;
+  }
+}

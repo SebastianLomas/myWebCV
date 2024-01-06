@@ -13,6 +13,7 @@ html {
 body {
   width: 100%;
   height: 100vh;
+  background-color: $backgroundColor;
 }
 
 h1,
@@ -36,4 +37,9 @@ p {
   font-size: 2rem;
   font-family: $subtitleFont ;
   text-transform: capitalize;
+}
+
+.text {
+  font-size: 1.1rem;
+  font-family: $subtitleFont;
 }

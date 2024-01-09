@@ -1,88 +1,90 @@
 @import "../style/Utils.scss";
 
-.myInfo {
-  width: 100%;
-  height: 100dvh;
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: 40% 60%;
-  justify-items: center;
-  position: relative;
-   &__cover {
+@media screen and (min-width: 300px) and (max-width: 1079px) {
+  .myInfo {
     width: 100%;
-    height: 100%;
-
-    video {
+    height: 100dvh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 40% 60%;
+    justify-items: center;
+    position: relative;
+     &__cover {
       width: 100%;
       height: 100%;
-      object-fit: fill;
-    }
-   }
-
-   &__photo {
-    width: 10rem;
-    height: 10rem;
-    align-self: center;
-    top: 25%;
-    position: absolute;
-    img {
-      width: 100%;
-      height: 100%;
-      border-radius: 100%;
-      object-fit: fill;
-    }
-   }
-
-   &__data {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    &__texts {
-      width: 100%;
-      height: 15rem;
-      padding-top: 5rem;
-
-      .name {
-        text-align: center;
-      }
-
-      .position {
+  
+      video {
         width: 100%;
-        height: 5rem;
+        height: 100%;
+        object-fit: fill;
+      }
+     }
+  
+     &__photo {
+      width: 10rem;
+      height: 10rem;
+      align-self: center;
+      top: 25%;
+      position: absolute;
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+        object-fit: fill;
+      }
+     }
+  
+     &__data {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      &__texts {
+        width: 100%;
+        height: 15rem;
+        padding-top: 5rem;
+  
+        .name {
+          text-align: center;
+        }
+  
+        .position {
+          width: 100%;
+          height: 5rem;
+          display: grid;
+          grid-template-columns: 30% 40% 30%;
+          grid-template-rows: 100%;
+          justify-content: center;
+          justify-items: center;
+          align-items: center;
+  
+          .firstLine, .secondLine {
+            width: 80%;
+            height: 0.3rem;
+            background-color: $fontColor;
+          }
+        }
+      }
+  
+      &__contact {
+        width: 100%;
+        height: 3rem;
         display: grid;
-        grid-template-columns: 30% 40% 30%;
-        grid-template-rows: 100%;
-        justify-content: center;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-content: space-evenly;
         justify-items: center;
         align-items: center;
-
-        .firstLine, .secondLine {
-          width: 80%;
-          height: 0.3rem;
-          background-color: $fontColor;
+        a {
+          display: block;
+          width: 3rem;
+          height: 3rem;
+          img {
+            width: 100%;
+            height: 100%;
+          }
         }
       }
-    }
-
-    &__contact {
-      width: 100%;
-      height: 3rem;
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      justify-content: space-evenly;
-      justify-items: center;
-      align-items: center;
-      a {
-        display: block;
-        width: 3rem;
-        height: 3rem;
-        img {
-          width: 100%;
-          height: 100%;
-        }
-      }
-    }
-   }
+     }
+  } 
 }
